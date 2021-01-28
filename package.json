@@ -7,6 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "test:exercise:01": "jest -t= Exercise01",
+    "test:exercise:02": "jest -t= Exercise01",
     "test:watch": "jest --watch",
     "lint": "ng lint",
     "format": "prettier \"**/*.+(js|json|scss|css|html|ts|md)\" --write",

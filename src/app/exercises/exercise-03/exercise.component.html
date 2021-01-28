@@ -1,0 +1,12 @@
+<div>
+  <span>Counter:</span>
+  <span data-testid="count">{{ count }}</span>
+</div>
+<div>
+  <app-button data-testid="btn-decrease" (click)="decrease()">
+    Decrease
+  </app-button>
+  <app-button data-testid="btn-increase" (click)="increase()">
+    Increase
+  </app-button>
+</div>

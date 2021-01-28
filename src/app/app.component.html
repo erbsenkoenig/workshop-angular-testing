@@ -1,7 +1,13 @@
-<div>
-  <h1>Angular Unit Testing Workshop</h1>
-  <div>
-    <a routerLink="">Back to Introduction</a>
+<div class="wrapper">
+  <div class="w-full bg-purple-700 flex items-center justify-center header">
+    <h1 class="text-white text-3xl">Angular Unit Testing Workshop</h1>
   </div>
-  <router-outlet></router-outlet>
+  <div class="p-8 bg-gray-100 content">
+    <div *ngIf="!isHome" class="pb-4">
+      <a class="hover:text-purple-500 font-bold text-purple-700" routerLink="">
+        Back to Introduction
+      </a>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
 </div>

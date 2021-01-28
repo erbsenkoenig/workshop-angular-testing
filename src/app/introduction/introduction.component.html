@@ -1,53 +1,62 @@
-<div>
-  <h2>Exercises</h2>
-
-  <div>
-    <h3>Exercise 01 - Simple component unit test</h3>
-
-    <h4>Exercise</h4>
-    <p>
-      We have a simple counter component (if you have the app running locally,
-      you can interact with it by following the link beneath. Your job is to
-      make sure that it starts out with a count of 0 and that when the user
-      clicks "Increment" it'll increase the count and when they click
-      "Decrement" it'll decrease the count.
-    </p>
-
-    <h4>Link to implementation</h4>
-    <p>
-      <a href="/exercise-01">Exercise 01</a>
-    </p>
+<div class="grid grid-cols-3 gap-4">
+  <div class="bg-white shadow-xl p-4 rounded flex flex-col">
+    <div class="flex-grow">
+      <h3 class="text-lg font-bold mb-3.5">
+        Exercise 01 - Simple component unit test
+      </h3>
+      <div class="text-justify">
+        We have a simple counter component (if you have the app running locally,
+        you can interact with it by following the link beneath. Your job is to
+        make sure that it starts out with a count of 0 and that when the user
+        clicks "Increment" it'll increase the count and when they click
+        "Decrement" it'll decrease the count.
+      </div>
+    </div>
+    <div class="pt-4">
+      <a
+        class="hover:text-purple-500 font-bold text-purple-700"
+        routerLink="/exercise-01"
+      >
+        Show Component
+      </a>
+    </div>
   </div>
-  <hr />
-  <div>
-    <h3>Exercise 02 - Simple component with dependency</h3>
-
-    <h4>Exercise</h4>
-    <p>
-      We have the same simple counter component. This time though the count
-      itself is stored in a data service. Your job is now to test the component
-      again this time handling the dependency.
-    </p>
-
-    <h4>Link to implementation</h4>
-    <p>
-      <a href="/exercise-02">Exercise 02</a>
-    </p>
+  <div class="bg-white shadow-xl p-4 rounded flex flex-col">
+    <div class="flex-grow mb">
+      <h3 class="text-lg font-bold mb-3.5">
+        Exercise 02 - Simple component with dependency
+      </h3>
+      <div class="text-justify">
+        We have the same simple counter component. This time though the count
+        itself is stored in a data service. Your job is now to test the
+        component again this time handling the dependency.
+      </div>
+    </div>
+    <div class="pt-4">
+      <a
+        class="hover:text-purple-500 font-bold text-purple-700"
+        routerLink="/exercise-02"
+      >
+        Show Component
+      </a>
+    </div>
   </div>
-  <hr />
-  <div>
-    <h3>Unit test with child components</h3>
-
-    <h4>Exercise</h4>
-    <p>
-      We have again the same simple count component. This time though the
-      buttons itself are managed inside a child component. Your job is now to
-      test the component again this time handling the child component
-    </p>
-
-    <h4>Link to implementation</h4>
-    <p>
-      <a href="/exercise-03">Exercise 03</a>
-    </p>
+  <div class="bg-white shadow-xl p-4 rounded flex flex-col">
+    <div class="flex-grow">
+      <h3 class="text-lg font-bold mb-3.5">Unit test with child components</h3>
+      <div class="text-justify">
+        We have again the same simple count component. This time though the
+        buttons itself are managed inside a child component. Your job is now to
+        test the component again this time handling the child component
+      </div>
+    </div>
+    <div>
+      <a
+        class="hover:text-purple-500 font-bold text-purple-700"
+        routerLink="/exercise-03"
+      >
+        Show Component
+      </a>
+    </div>
   </div>
 </div>

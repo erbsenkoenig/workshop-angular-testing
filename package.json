@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "test:exercise:01": "jest -t= Exercise01",
+    "test:watch": "jest --watch",
     "lint": "ng lint",
     "format": "prettier \"**/*.+(js|json|scss|css|html|ts|md)\" --write",
     "e2e": "ng e2e"
@@ -18,8 +20,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts,css,scss,md,json}": [
-      "npm run format",
-      "npm run lint"
+      "npm run format"
     ]
   },
   "dependencies": {

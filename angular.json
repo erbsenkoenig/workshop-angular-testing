@@ -81,8 +81,8 @@
           }
         },
         "test": {
-          "builder": "@angular-builders/custom-webpack:karma",
-          "options": { "customWebpackConfig": {"path":"webpack.config.js"}}
+          "builder": "@angular-builders/jest:run",
+          "options": { "customWebpackConfig": { "path": "webpack.config.js" } }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",

@@ -9,7 +9,7 @@ import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
 import { ExerciseComponent } from '../../app/exercises/exercise-01/exercise.component';
 
-describe('Solution-Exercise01', () => {
+describe('Solution-01', () => {
   let component: ExerciseComponent;
   let fixture: ComponentFixture<ExerciseComponent>;
 

@@ -11,7 +11,7 @@ import { Subject } from 'rxjs';
 import { DataService } from 'src/app/exercises/exercise-02/data.service';
 import { ExerciseComponent } from 'src/app/exercises/exercise-02/exercise.component';
 
-describe('Solution-Exercise02', () => {
+describe('Solution-02', () => {
   let component: ExerciseComponent;
   let fixture: ComponentFixture<ExerciseComponent>;
 

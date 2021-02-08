@@ -9,7 +9,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
 import { ExerciseComponent } from '../../app/exercises/exercise-03/exercise.component';
 
-describe('Solution-Exercise03', () => {
+describe('Solution-03', () => {
   let component: ExerciseComponent;
   let fixture: ComponentFixture<ExerciseComponent>;
 

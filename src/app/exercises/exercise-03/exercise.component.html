@@ -9,20 +9,22 @@
         </div>
       </div>
       <div class="flex space-x-3">
-        <button
+        <app-button
+          [type]="'button'"
           class="bg-purple-700 w-1/2 rounded text-white px-3 py-2"
           data-testid="btn-decrease"
           (click)="decrease()"
         >
           Decrease
-        </button>
-        <button
+        </app-button>
+        <app-button
+          [type]="'button'"
           class="bg-purple-700 w-1/2 rounded text-white px-3 py-2"
           data-testid="btn-increase"
           (click)="increase()"
         >
           Increase
-        </button>
+        </app-button>
       </div>
     </div>
   </div>

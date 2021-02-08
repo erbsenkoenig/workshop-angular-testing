@@ -50,6 +50,8 @@ describe('Solution-03', () => {
       By.css('[data-testid="btn-increase"]')
     );
 
+    // ⛳️ expect that increaseButtonDebugElem.properties['type'] equals to 'button'
+
     // use increaseButtonDebugElem.triggerEventHandler('click', null) to trigger a click
     increaseButtonDebugElem.triggerEventHandler('click', null);
 
@@ -81,6 +83,8 @@ describe('Solution-03', () => {
     const decreaseButtonDebugElem: DebugElement = fixture.debugElement.query(
       By.css('[data-testid="btn-decrease"]')
     );
+
+    // ⛳️ expect that increaseButtonDebugElem.properties['type'] equals to 'button'
 
     // use increaseButtonDebugElem.triggerEventHandler('click', null) to trigger a click
     decreaseButtonDebugElem.triggerEventHandler('click', null);
